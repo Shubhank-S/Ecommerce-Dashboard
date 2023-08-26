@@ -1,0 +1,21 @@
+.header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: navy;
+    list-style: none;
+    height: 10vh;
+    box-shadow: 10px 10px 10px grey;
+}
+
+.navlink{
+    text-decoration: none;
+    color: beige;
+    font-size: 20px;
+    margin: 5px;
+}
+
+.active{
+    color: yellow;
+   font-weight: bold;
+}
