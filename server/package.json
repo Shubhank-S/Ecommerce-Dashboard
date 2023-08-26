@@ -1,13 +1,13 @@
 {
   "name": "server",
   "version": "1.0.0",
-  "description": "This is the backend for the project \"Ecommerce Dashboard\"",
-  "main": "server.js",
+  "description": "",
+  "main": "index.js",
   "scripts": {
-    "start": "nodemon server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "Shubhank Sharma",
+  "keywords": [],
+  "author": "",
   "license": "ISC",
   "dependencies": {
     "express": "^4.18.2",
