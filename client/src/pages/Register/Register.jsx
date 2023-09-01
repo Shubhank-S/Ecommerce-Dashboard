@@ -25,6 +25,7 @@ function Register() {
     console.log(result);
     if (result) {
       navigate("/");
+      localStorage.setItem("users", JSON.stringify(result));
     }
   };
   // useEffect(() => {
