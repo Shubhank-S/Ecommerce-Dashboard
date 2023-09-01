@@ -16,6 +16,11 @@ function Header() {
             Logout
           </NavLink>
         </li>
+        <li>
+          <NavLink to="/register" className="navlink">
+            Register
+          </NavLink>
+        </li>
       </ul>
     </header>
   );
