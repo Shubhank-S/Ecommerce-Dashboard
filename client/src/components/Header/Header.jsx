@@ -7,11 +7,6 @@ function Header() {
     <header>
       <ul className="header">
         <li>
-          <NavLink to="/" className="navlink">
-            Home
-          </NavLink>
-        </li>
-        <li>
           <NavLink to="/logout" className="navlink">
             Logout
           </NavLink>
