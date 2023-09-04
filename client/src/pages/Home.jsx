@@ -6,7 +6,7 @@ function Home() {
   console.log(data);
   return (
     <section>
-      <h1>Welcome {data}</h1>
+      <h1 style={{ textAlign: "center" }}>Welcome {data}</h1>
     </section>
   );
 }

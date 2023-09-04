@@ -6,6 +6,7 @@ import Logout from "./pages/Logout";
 import Register from "./pages/Register/Register";
 import Header from "./components/Header/Header";
 import Footer from "./components/Footer/Footer";
+import ProtectedRoutes from "./auth/ProtectedRoutes";
 
 function App() {
   return (
@@ -13,10 +14,12 @@ function App() {
       <BrowserRouter>
         <Header />
         <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/profile" element={<Profile />} />
+          <Route element={<ProtectedRoutes />}>
+            <Route path="/" element={<Home />} />
+            <Route path="/profile" element={<Profile />} />
+            <Route path="/logout" element={<Logout />} />
+          </Route>
           <Route path="/register" element={<Register />} />
-          <Route path="/logout" element={<Logout />} />
         </Routes>
         <Footer />
       </BrowserRouter>
